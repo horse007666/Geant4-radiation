@@ -59,7 +59,7 @@ B1PrimaryGeneratorAction::B1PrimaryGeneratorAction()
     = particleTable->FindParticle(particleName="gamma");
   fParticleGun->SetParticleDefinition(particle);
   fParticleGun->SetParticleEnergy(0.662*MeV);
-  fParticleGun->SetParticlePosition(G4ThreeVector(-50*cm,0.,0.));
+  fParticleGun->SetParticlePosition(G4ThreeVector(-63*cm,0.,0.));
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
